@@ -1,0 +1,44 @@
+.slide-img {
+    width: 100%;
+    border-radius: .7rem;
+    height: 600px;
+    object-fit: cover;
+
+}
+
+.slider-element {
+    position: relative;
+    font-family: 'Fuggles', cursive;
+}
+
+.slider-text {
+    position: absolute;
+    top: 15%;
+    right: 2%;
+    max-width: 73%;
+    font-size: 3rem;
+    color: white;
+    line-height: 3rem;
+    /* text-shadow: 4px 1px 12px rgb(4 4 4); */
+    /* background-color: #e5ecd5; */
+    font-weight: 700;
+    padding: 1rem;
+
+}
+
+.slider-text-centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 5rem;
+    color: #fff;
+    line-height: 3rem;
+    text-shadow: 4px 1px 12px rgb(4 4 4);
+    padding: 1rem 2rem;
+    transform: translate(-50% , -50%);
+    background-color: #926e52;
+}
+
+.slider-text-centered:hover {
+    color: black;
+}

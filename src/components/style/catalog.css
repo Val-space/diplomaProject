@@ -1,0 +1,145 @@
+.general-catalog {
+    display: flex;
+    justify-content: space-around;
+    margin: 6rem 0;
+}
+
+
+.general-catalog__item {
+    position: relative;
+    width: 30%;
+}
+
+.general-catalog__coffee {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: .3rem;
+}
+
+.general-catalog__name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #000;
+    font-size: 2rem;
+    padding: .5rem;
+    background-color: #f3ebd5;
+    border-radius: .2rem;
+    transition: all .5s;
+    width: 100%;
+    text-align: center;
+}
+
+.general-catalog__name:hover {
+    background-color: #ced346;
+
+}
+
+.collection {
+    display: flex;
+    padding-bottom: 3rem;
+}
+
+.collection_container {
+    max-width: 95%;
+    margin: 3rem auto;
+}
+
+.collection-sidebar {
+    width: 300px;
+    margin-right: 1rem;
+}
+
+.collection-sidebar__search input,
+.collection-sidebar__select {
+    height: 40px;
+    width: 150px;
+    border: 1px solid #000;
+    border-radius: .3rem;
+    padding-left: .7rem;
+    margin: 1rem 0;
+}
+
+.collection-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 4rem 1rem;
+    margin-bottom: 3rem;
+
+}
+
+.banner {
+    width: 100%;
+    margin: 3rem 0;
+    height: 250px;
+}
+
+.banner-coffee {
+    background: url('https://cdn.shopify.com/s/files/1/0390/4361/collections/iced-coffee-on-cafe-bar_2048x.jpg?v=1558427984') repeat fixed 100%;
+    /* background-position: 25% 44%; */
+
+}
+
+.banner-tea {
+    background: url('https://cdn.pixabay.com/photo/2017/06/29/23/26/tea-2456591_1280.jpg') no-repeat fixed 100%;
+    background-position: 25% 90%;
+    background-size: cover;
+}
+
+.banner {
+    text-align: center;
+    padding-top: 3rem;
+    color: white;
+}
+
+.banner img {
+    object-fit: cover;
+    height: 235px;
+    width: 100%;
+}
+
+.collection_title {
+    font-family: 'Fuggles', cursive;
+    text-align: center;
+    margin: 4rem 0;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    height: 280px;
+    border-radius: .4rem;
+    transition: all 1s;
+    padding: 1rem;
+}
+
+
+.product-card:hover {
+    background-color: #e2d2c6;
+
+}
+
+.product-card__image {
+    text-align: center;
+}
+
+.product-card__image img {
+    max-width: 70%;
+}
+
+.product-card__name {
+    font-weight: 700;
+}
+
+.collection__tea-descr {
+    margin-top: 5rem;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+}

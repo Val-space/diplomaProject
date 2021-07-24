@@ -1,0 +1,36 @@
+.form-rewiew {
+    display: flex;
+    align-items: center;
+    /* background-color: #F9F0F3; */
+    border-radius: .3rem;
+}
+
+.form-rewiew input {
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: .2rem;
+    padding-left: 1rem;
+    margin: 1rem;
+}
+
+.form-rewiew textarea {
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: .2rem;
+    padding-left: 1rem;
+    margin: 1rem;
+}
+
+.rewiew-comment {
+    /* background-color: #F9F0F3; */
+    padding: .5rem;
+    border-radius: .3rem;
+}
+
+.comment-section {
+    padding: 1rem;
+}
+
+.comment-section>h4 {
+    padding-top: 1rem;
+}

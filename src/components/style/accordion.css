@@ -1,0 +1,40 @@
+.wrap-accordion {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    border-bottom: 1px solid #463b33;
+}
+
+.accordion-inner {
+    width: 45%;
+    margin: 0 1rem;
+
+}
+
+.accordion-question {
+    /* border: 1px solid #463B33; */
+    /* background-color: #c7463c61; */
+    border-radius: .3rem;
+    text-align: center;
+    padding: .5rem;
+    cursor: pointer;
+    color: #463b33;
+}
+
+.wrap-answer.open {
+    font-size: 1.3rem;
+    max-width: 100%;
+    height: 200px;
+    padding: 0 1rem;
+    overflow-y: scroll;
+}
+
+.wrap-answer {
+    font-size: 1.3rem;
+    max-width: 100%;
+    height: 0;
+    padding: 0 1rem;
+    overflow: hidden;
+    -webkit-transition: height 400ms ease;
+    transition: height 400ms ease;
+}
