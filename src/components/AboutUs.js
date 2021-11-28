@@ -5,7 +5,6 @@ function AboutUs() {
   return (
     <main className={"about-page"}>
       <div className={"about-block"}>
-        {/* <h2 className={"about-block__header"}>Our Story</h2> */}
         <p className={"about-block__paragraph"}>
           We have been the blender of choice for five-star hotels and Michelin
           chefs worldwide. And now, you.
